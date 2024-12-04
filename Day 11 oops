@@ -1,0 +1,59 @@
+inheritance 
+Single inheritances
+public class A {
+ public void  employe(){
+  System,out.printlm("employe)
+}
+}
+//import ClassA.ClassA();
+public class B extends Class A {
+public void  admin (){
+ System.out.printlm("Admin")
+}
+ public static void main(String []args ){
+  B office= new B();
+   office. employee();
+}
+}
+2) mutli level 
+
+ public class A {
+ public void  employe(){
+  System,out.printlm("employe)
+}
+}
+public class B extends Class A {
+public void  admin (){
+ System.out.printlm("Admin")
+}
+public class C extends Class B {
+public void  teams(){
+ System.out.printlm("teams")
+}
+ public static void main(String []args ) {
+  C office 1= new C();
+   office1.teams();
+}
+}
+3)polymorphism
+ public class A {
+ public void  employe( int a, String Name ){
+  System,out.printlm(" employee class a ")
+}
+}
+public class B extends Class A {
+  public void  employe (int a){
+ System.out.printlm("employee class B")
+}
+public static void main(String []args ) {
+B office = new B ();
+office.employe(1,"Dharun");
+office.employe(2);
+ 
+
+
+
+
+
+
+
