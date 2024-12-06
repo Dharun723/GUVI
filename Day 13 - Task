@@ -1,0 +1,37 @@
+1) public class a{ 
+public static void main (Strings args []){
+
+try{
+int a= 10;
+int b= 20;
+int c=a+b;
+System.out.println(c);
+}
+}catch ( ArithmeticException A){
+System.out.println("cannoyt the add a+b");
+}
+]
+}
+
+2) public class b {
+public static void main (Strings args []){
+try {
+int a= interger.parseInt("Dharun");
+System.out.println(a);{
+}catch (NumberformatExcepton C){
+system.out.println( number format exception");
+}
+}
+}
+3) class C
+{ 
+    public static void main(String args[]) 
+    { 
+ try { 
+   String a = null; 
+   System.out.println(a.charAt(0)); 
+   } catch(NullPointerException e) { 
+   System.out.println("NullPointerException.."); 
+        } 
+    } 
+} 
