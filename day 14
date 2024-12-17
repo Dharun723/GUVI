@@ -1,0 +1,78 @@
+array list
+public class A{
+Public static void main( String [] args){
+array list<String > one = new array list<String>();
+listone.add("employe");
+listone.add("id");
+listone.add("Name");
+system.out.println(one);
+system.out.println(one.get());
+system.out.println(one.size());
+system.out.println(one.index of ("employee"));
+}
+}
+linked list:
+public class B{
+Public static void main( String [] args){
+linked list <String > two = new linkedlist <String>();
+two.add("development");
+two.add("testing");
+two.add("release");
+System.out.println(add);
+two.addfirst(" collect the requirments from client");
+System.out.println(two);
+two.addlast("production support");
+System.out.println(two);
+
+set
+public class c{
+Public static void main( String [] args){
+set<interger> a = new hashset<interger>();
+a.add(29);
+a.add(30);
+a.add(40);
+System.out.println(a);
+System.out.println(set.size());
+}
+}
+
+public class D{
+Public static void main( String [] args){
+set<interger> b = new linkedhashset<interger>();
+b.add(2);
+b.add(3);
+System.out.println(b);
+}
+}
+
+
+
+public class E{
+Public static void main( String [] args){
+set<interger> c = new Treeset<interger>();
+c.add(1000);
+c.add(40);
+c.add(2000);
+System.out.println(c);
+}
+}
+map class
+public class F{
+Public static void main( String [] args){
+Map<String,interger> d = new hashMap<String,interger>();
+d.put("Siva",2);
+d.put("dharun",2);
+System.out.println(d);
+}
+}
+public class H{
+Public static void main( String [] args){
+Map<String,interger> e = new linkedMap<String,interger>();
+e.put("abishek",2);
+e.put("vikky",2);
+System.out.println(e);
+}
+}
+
+
+
